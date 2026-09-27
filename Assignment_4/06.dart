@@ -1,9 +1,13 @@
 void main() {
-  Map contact = {
-    'name': 'John',
-    'phone': '1234'
+  Map<String, dynamic> person = {
+    "name": "Mahfuz",
+    "address": "Sylhet",
+    "age": 22,
+    "country": "Bangladesh"
   };
 
-  var keys = contact.keys.where((key) => key.length == 4);
-  print(keys.toList());
+  person["country"] = "USA";
+
+  print(person.keys);
+  print(person.values);
 }
