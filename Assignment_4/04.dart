@@ -1,13 +1,13 @@
 void main() {
-  Map<String, dynamic> person = {
-    "name": "Mahfuz",
-    "address": "Sylhet",
-    "age": 22,
-    "country": "Bangladesh"
-  };
+  List<String> days = [];
 
-  person["country"] = "USA";
+  days.add("Saturday");
+  days.add("Sunday");
+  days.add("Monday");
+  days.add("Tuesday");
+  days.add("Wednesday");
+  days.add("Thursday");
+  days.add("Friday");
 
-  print(person.keys);
-  print(person.values);
+  print(days);
 }
