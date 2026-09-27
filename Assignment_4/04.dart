@@ -1,5 +1,5 @@
 void main() {
-  List<String> days = [];
+  List<String> Days = [];
 
   days.add("Saturday");
   days.add("Sunday");
@@ -9,5 +9,5 @@ void main() {
   days.add("Thursday");
   days.add("Friday");
 
-  print(days);
+  print(Days);
 }
